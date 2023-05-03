@@ -32,7 +32,7 @@ def main():
         browser.set_driver(driver)
 
         #access
-        browser.open_url("https://redmine.gomilab.dynu.net")
+        browser.open_url("https://redmine_link")
 
         #login
         element = driver.find_element(By.CLASS_NAME,"login")
